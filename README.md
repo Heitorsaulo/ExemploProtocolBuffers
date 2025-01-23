@@ -17,4 +17,9 @@ protoc --java_out=src/main/java/ src/main/proto/aluno.proto
 ```
 mvn clean compile assembly:single
 
+
+```
+## Compilar e criar Jar
+```
+mvn compile assembly:single
 ```
